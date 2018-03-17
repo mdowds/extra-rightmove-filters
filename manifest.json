@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Extra Rightmove filters",
+    "description": "",
+    "version": "0.1",
+    "content_scripts": [
+      {
+        "matches": [
+          "http://www.rightmove.co.uk/*find.html*",
+          "https://www.rightmove.co.uk/*find.html*"
+        ],
+        "js": [
+          "extrafilters.js"
+        ]
+      }
+    ]
+}
