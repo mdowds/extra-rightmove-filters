@@ -11,7 +11,7 @@
           "https://www.rightmove.co.uk/*find.html*"
         ],
         "js": [
-          "extrafilters.js"
+          "bundle.js"
         ]
       }
     ]

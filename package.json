@@ -1,0 +1,15 @@
+{
+  "name": "extra-rightmove-filters",
+  "version": "0.1",
+  "main": "extrafilters.js",
+  "author": "Matt Dowds <matthewd99@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
