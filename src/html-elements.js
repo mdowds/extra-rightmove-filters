@@ -4,10 +4,11 @@ function htmlElement(name, callback) {
     return el;
 }
 
-export function span({id, text}) {
+export function span({id, text, className}) {
     return htmlElement('span', (el) => {
         el.appendChild(document.createTextNode(text));
         if(id !== undefined) el.setAttribute('id', id);
+        if(className !== undefined) el.setAttribute('class', className);
     });
 }
 
@@ -21,7 +22,7 @@ export function checkbox({id, onClick}) {
     return htmlElement('input', (el) => {
         el.setAttribute('type', 'checkbox');
         el.setAttribute('id', id);
-        if(onClick !== undefined) el.addEventListener('click', onClick);
+        if(onClick !== undefined) el.addEventListener('click', () => onClick(el));
     });
 }
 

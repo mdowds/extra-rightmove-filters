@@ -8,11 +8,11 @@
       {
         "matches": [
           "http://www.rightmove.co.uk/*find.html*",
-          "https://www.rightmove.co.uk/*find.html*"
+          "https://www.rightmove.co.uk/*find.html*",
+          "http://localhost/*testpage.html*"
         ],
-        "js": [
-          "bundle.js"
-        ]
+        "css": ["erm-styles.css"],
+        "js": ["bundle.js"]
       }
     ]
 }

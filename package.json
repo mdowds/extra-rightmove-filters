@@ -1,7 +1,7 @@
 {
   "name": "extra-rightmove-filters",
   "version": "0.1",
-  "main": "extrafilters.js",
+  "main": "main.js",
   "author": "Matt Dowds <matthewd99@gmail.com>",
   "license": "MIT",
   "scripts": {
